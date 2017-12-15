@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:JK_Futures.UC"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="1050">
+             d:DesignHeight="500" d:DesignWidth="1050">
     <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"></ColumnDefinition>
@@ -299,7 +299,7 @@
                 <ColumnDefinition  Width="120"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Border  >
+            <Border  Height="320">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="5*"></RowDefinition>
@@ -370,27 +370,27 @@
                                 <RowDefinition></RowDefinition>
                             </Grid.RowDefinitions>
                             <StackPanel Orientation="Horizontal" Grid.Row="0" >
-                                <TextBlock VerticalAlignment="Center"   Text="卖五:"></TextBlock>
+                                <TextBlock VerticalAlignment="Center"   Text="买五:"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="Red"   Margin="5,0,0,0" Text="52.24"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="#2877DA"  Margin="10,0,0,0"   Text="18"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                                <TextBlock VerticalAlignment="Center"   Text="卖四:"></TextBlock>
+                                <TextBlock VerticalAlignment="Center"   Text="买四:"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="Red"   Margin="5,0,0,0" Text="52.24"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="#2877DA"  Margin="10,0,0,0"   Text="18"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Grid.Row="2" >
-                                <TextBlock VerticalAlignment="Center"   Text="卖三:"></TextBlock>
+                                <TextBlock VerticalAlignment="Center"   Text="买三:"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="Red"   Margin="5,0,0,0" Text="52.24"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="#2877DA"  Margin="10,0,0,0"   Text="18"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Grid.Row="3" >
-                                <TextBlock VerticalAlignment="Center"   Text="卖二:"></TextBlock>
+                                <TextBlock VerticalAlignment="Center"   Text="买二:"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="Red"   Margin="5,0,0,0" Text="52.24"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="#2877DA"  Margin="10,0,0,0"   Text="18"></TextBlock>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Grid.Row="4" >
-                                <TextBlock VerticalAlignment="Center"   Text="卖一:"></TextBlock>
+                                <TextBlock VerticalAlignment="Center"   Text="买一:"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="Red"   Margin="5,0,0,0" Text="52.24"></TextBlock>
                                 <TextBlock VerticalAlignment="Center" Foreground="#2877DA"  Margin="10,0,0,0"   Text="18"></TextBlock>
                             </StackPanel>
