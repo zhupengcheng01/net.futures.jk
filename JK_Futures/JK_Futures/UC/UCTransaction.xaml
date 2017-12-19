@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:JK_Futures.UC"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="1050">
+             d:DesignHeight="300" d:DesignWidth="1050">
     <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"></ColumnDefinition>
@@ -18,11 +18,11 @@
                 <RowDefinition>
                 </RowDefinition>
             </Grid.RowDefinitions>
-            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <StackPanel Panel.ZIndex="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
                 <RadioButton  VerticalAlignment="Center" Content="明细" Margin="10,0"/>
                 <RadioButton  VerticalAlignment="Center" Content="按合约汇总" Margin="10,0"/>
             </StackPanel>
-            <Border Grid.Row="1" Margin="0,-25,0,0">
+            <Border Grid.Row="1" Panel.ZIndex="0" Margin="0,-25,0,0">
                 <TabControl >
                     <TabItem Header="持仓">
 
@@ -294,12 +294,12 @@
                 </TabControl>
             </Border>
         </Grid>
-        <Grid Height="380" Grid.Column="1" VerticalAlignment="Top">
+        <Grid Height="300" Grid.Column="1" VerticalAlignment="Top">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition  Width="120"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Border  Height="320">
+            <Border  Height="300">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="5*"></RowDefinition>
